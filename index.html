@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- MAIN -->
+
+    <div id="Main">
+        <nav>
+            <div id="logo">
+                <img src="/Images/Spotify-Logo.png" alt="">
+            </div>
+            <ul>
+                <li id="h"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Container -->
+
+    <div id="container">
+        <div id="background">
+            <div id="playlist">
+                <h2>Best Of NCS - No Copyright Sounds</h2>
+            </div>
+            <div id="Songs">
+                <div id="songlist">
+                    <!-- <div class="songitem">
+                        <div>
+                            <img src="/Images/dhadak.jpg" alt="">
+                            <div id="Equilizer">
+                                <div id="bar1"></div>
+                                <div id="bar2"></div>
+                                <div id="bar3"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <h3>Asal Mein - Darshan Raval</h3>
+                        </div>
+                        <div>3:44 <span><i class="fa-solid fa-play"></i></span></div>
+                    </div> -->
+                </div>
+                <div id="songName">
+                    <!-- <div>
+                        <h4>Asal Mein - Darshan Raval</h4>
+                    </div>
+                    <div><img src="/Images/Asal Mein.jpg" alt=""></div> -->
+                </div>
+            </div>
+            <div class="SelectAudioInput">
+                <input type="file" id="audioInput">
+                <label for="audioInput" class="fileUpload">
+                    Choose Song
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- SongPlayArea -->
+
+    <div id="SongPlayArea">
+        <div id="range">
+            <input type="range" value="0">
+            <div id="time">
+                <div>00:00</div>
+                <div>04:56</div>
+            </div>
+        </div>
+        <div id="icons">
+            <div id="prev"><i class="fa-solid fa-backward-step"></i></div>
+            <div id="playpause"><i class="fa-solid fa-play"></i></div>
+            <div id="next"><i class="fa-solid fa-forward-step"></i></div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/882d160b37.js" crossorigin="anonymous"></script>
+    <script src="node_modules/jsmediatags/dist/jsmediatags.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>
